@@ -11,7 +11,7 @@ const { findBookAPI, getSmallestNumberInArray } = require("./utils");
  * Написать тест, которые проверяет, что функция getOldestBookYear возвращает результат
  * вызова "getSmallestNumberInArray", который "замоканный"
  * 
- * Написать тест, которые проверяют, что "замоканная" функция getSmallestNumberInArray, 
+ * Написать тест, который проверяет, что "замоканная" функция getSmallestNumberInArray, 
  * вызывается с массивом чисел, которые внутри функции "getOldestBookYear"
  * была преобразована в массив, используя исходный массив обьектов (книг)
  */
